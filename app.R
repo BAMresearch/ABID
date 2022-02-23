@@ -1,0 +1,6 @@
+#'shiny::runApp()
+#'rsconnect::deployApp(appName = "ABID", forceUpdate = TRUE, account = "gets")
+#'rsconnect::showLogs(appName = "ABID")
+#'rsconnect::configureApp("ABID", size="xlarge", account = "gets")
+pkgload::load_all(".")
+abid_app()

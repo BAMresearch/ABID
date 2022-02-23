@@ -1,0 +1,33 @@
+Package: ABID
+Title: Evaluation of MALDI measurements of digested antibodies
+Version: 0.61
+Date: 2022-02-17
+Authors@R: 
+    person(
+      given = "Jan", 
+      family = "Lisec", 
+      email = "jan.lisec@bam.de",
+      role = c("aut", "cre"), 
+      comment = c(ORCID = "0000-0003-1220-2286")
+    )
+Description: 
+  The package provides a single function starting a ShinyApp for local use. 
+  This App provides a library of digested antibodies and allows the user to upload a similar MALDI spectrum and compare it with the library.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+LazyDataCompression: bzip2
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Depends: 
+    R (>= 3.50)
+Imports: 
+    bsplus,
+    DT,
+    MALDIquant,
+    openxlsx,
+    pkgload,
+    plyr,
+    shiny,
+    shinyjs,
+    stringr
